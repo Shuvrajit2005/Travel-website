@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    color: #6495ED;
+    text-decoration: underline;
+}
+
+.heading1 {
+    font-size: 45px;
+    font-family: "Poppins";
+}
+
+.heading2 {
+    font-size: 40px;
+    font-family: "Rubik";
+}
+
+.intro {
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Montserrat";
+}
+
+.place {
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.place h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: "Montserrat";
+}
+
+ol {
+    font-size: 19px;
+    font-family: "Montserrat";
+    list-style-position: inside;
+    line-height: 1.5;
+    list-style: none;
+}
+
+ol a {
+    text-decoration: none;
+    color: black;
+}
+
+.delhihead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins";
+    line-height: 3;
+}
+
+.delhiimage {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 23px;
+}
+
+.delhibg {
+    height: 250px;
+    border-radius: 23px;
+    filter: brightness(90%);
+}
+
+.delhisection p {
+    font-family: "Poppins";
+    /* background-color: aqua; */
+    margin-bottom: 23px;
+
+}
+
+.delhiplaceheading {
+    font-size: 20px;
+    font-family: "Montserrat";
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.delhiplaces {
+    display: flex;
+    list-style-position: inside;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: 19px;
+    font-family: "Poppins";
+    /* background-color:palevioletred; */
+}
+
+.jaipurhead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins";
+    line-height: 3;
+}
+
+.jaipurimage {
+    display: flex;
+    justify-content: center;
+    /* background-color: peru; */
+    margin-bottom: 23px;
+}
+
+.jaipurbg {
+    height: 250px;
+    border-radius: 23px;
+    filter: brightness(90%);
+}
+
+.jaipursection p {
+    font-family: "Poppins";
+    /* background-color: aqua; */
+    margin-bottom: 23px;
+}
+
+.jaipurplaceheading {
+    font-size: 20px;
+    font-family: "Montserrat";
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.jaipurplaces {
+    display: flex;
+    list-style-position: inside;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: 19px;
+    font-family: "Poppins";
+    /* background-color:palevioletred; */
+}
+
+
+.kerelahead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins";
+    line-height: 3;
+}
+
+.kerelaimage {
+    display: flex;
+    justify-content: center;
+    /* background-color: peru; */
+    margin-bottom: 23px;
+}
+
+.kerelabg {
+    height: 250px;
+    width: 400px;
+    border-radius: 23px;
+    filter: brightness(90%);
+    object-fit: cover;
+}
+
+.kerelasection p {
+    font-family: "Poppins";
+    /* background-color: aqua; */
+    margin-bottom: 23px;
+}
+
+.kerelaplaceheading {
+    font-size: 20px;
+    font-family: "Montserrat";
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.kerelaplaces {
+    display: flex;
+    list-style-position: inside;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: 19px;
+    font-family: "Poppins";
+    /* background-color:palevioletred; */
+}
+
+.goahead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins";
+    line-height: 3;
+}
+
+.goaimage {
+    display: flex;
+    justify-content: center;
+    /* background-color: peru; */
+    margin-bottom: 23px;
+}
+
+.goabg {
+    height: 250px;
+    /* width: 400px; */
+    border-radius: 23px;
+    filter: brightness(90%);
+    object-fit: cover;
+}
+
+.goasection p {
+    font-family: "Poppins";
+    /* background-color: aqua; */
+    margin-bottom: 23px;
+}
+
+.goaplaceheading {
+    font-size: 20px;
+    font-family: "Montserrat";
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.goaplaces {
+    display: flex;
+    list-style-position: inside;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: 19px;
+    font-family: "Poppins";
+    /* background-color: palevioletred; */
+}
+
+.varanasihead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins";
+    line-height: 3;
+}
+
+.varanasiimage {
+    display: flex;
+    justify-content: center;
+    /* background-color: peru; */
+    margin-bottom: 23px;
+}
+
+.varanasibg {
+    height: 250px;
+    width: 400px;
+    border-radius: 23px;
+    filter: brightness(90%);
+    object-fit: cover;
+}
+
+.varanasisection p {
+    font-family: "Poppins";
+    /* background-color: aqua; */
+    margin-bottom: 23px;
+}
+
+.varanasiplaceheading {
+    font-size: 20px;
+    font-family: "Montserrat";
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.varanasiplaces {
+    display: flex;
+    list-style-position: inside;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: 19px;
+    font-family: "Poppins";
+    /* background-color: palevioletred; */
+}
